@@ -1,4 +1,5 @@
 ﻿using Dominio.Interfaces;
+using Infraestructura.Loggers;
 
 namespace Infraestructura.Factorias
 {
@@ -8,12 +9,12 @@ namespace Infraestructura.Factorias
         {
             switch (discriminante)
             {
-                case 'consola':
+                case "consola":
                     return new LoggerConsola();
-                case 'archivo':
+                case "archivo":
                     return new LoggerArchivoDeTexto();
                 default:
-                    break;
+                    throw new NotImplementedException("logger not found");
             }
         }
     }

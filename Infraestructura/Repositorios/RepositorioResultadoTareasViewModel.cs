@@ -12,7 +12,7 @@ namespace Infraestructura.Repositorios
     {
         public void Guardar(List<TareaViewModel> tareas)
         {
-            using (StreamWriter writeText = new StreamWriter($@"{Directory.GetCurrentDirectory}\tareasPendientes.txt", append: true))
+            using (StreamWriter writeText = new StreamWriter($@"{Directory.GetCurrentDirectory()}\tareasPendientes.txt", append: true))
             {
                 foreach (var tarea in tareas)
                 {

@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "ArqDominioCentri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura", "Infraestructura\Infraestructura.csproj", "{5DC882B8-9EA2-4DA1-A55C-A94CA4A59000}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consola", "Consola\Consola.csproj", "{ADB91ECB-B38F-4F5E-AA10-0600F62FCEC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5DC882B8-9EA2-4DA1-A55C-A94CA4A59000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DC882B8-9EA2-4DA1-A55C-A94CA4A59000}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DC882B8-9EA2-4DA1-A55C-A94CA4A59000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB91ECB-B38F-4F5E-AA10-0600F62FCEC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB91ECB-B38F-4F5E-AA10-0600F62FCEC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB91ECB-B38F-4F5E-AA10-0600F62FCEC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB91ECB-B38F-4F5E-AA10-0600F62FCEC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
